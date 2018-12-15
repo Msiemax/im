@@ -1,0 +1,48 @@
+body
+{
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+header
+{
+	height: 10vh;
+	width: 100vw;
+}
+header .logo
+{
+	height: 10vh;
+	width: 50vw;
+	background-color: #a2f2b2;
+	float: left;
+}
+header nav
+{
+	float: left;
+	height: 10vh;
+	width: 50vw;
+	background-color: #c2f2a2;
+}
+main
+{
+	height: 80vh;
+	
+}
+main .text
+{
+	height: 40vh;
+	width: 100vw;
+	background-color: #a2b2b2;
+}
+main .buttons
+{
+	height: 40vh;
+	width: 100vw;
+	background-color: #c2b2c2;
+}
+footer
+{
+	height: 10vh;
+	width: 100vw;
+	background-color: #000;
+}
