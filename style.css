@@ -3,6 +3,7 @@ body
 	height: 100vh;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
 header
 {
@@ -15,6 +16,15 @@ header .logo
 	width: 50vw;
 	background-color: #a2f2b2;
 	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+header img
+{
+	height: 8vh;
+	width: 15vw;
+	display: block;
+	margin: 1vh 0 0 5vh;
 }
 header nav
 {
@@ -22,10 +32,66 @@ header nav
 	height: 10vh;
 	width: 50vw;
 	background-color: #c2f2a2;
+	text-align: right;
+
+}
+header nav .menu
+{
+
+	text-align: center;
+	display: none;
+	width: 100vw;
+	position: relative;
+	clear: both;
+    position: fixed;
+    top: 10vh;
+    left: 0vh;
+
+
+
+
+}
+header nav .menu a
+{
+	text-decoration: none;
+	height: 13.4vh;
+	color: grey;
+	line-height: 13.4vh;
+	display: block;
+	background-color: #fff;
+	font-size: 3vh;
+	border-top: 1px solid #000;
+}
+header nav .menu a:first-child
+{
+	border-top: 0px;
+}
+header nav label
+{
+	margin: 1vh 5vh 0 0;
+	width: 30px;
+	font-size: 6vh;
+	display: block;
+	cursor: pointer;
+	float: right;
+
+	
+}
+#toggle
+{
+	display: none;
+}
+#toggle:checked + .menu
+{
+	display: block;
+
 }
 main
 {
 	height: 80vh;
+	box-sizing: border-box;
+	z-index: ;
+
 	
 }
 main .text
@@ -33,6 +99,21 @@ main .text
 	height: 40vh;
 	width: 100vw;
 	background-color: #a2b2b2;
+
+
+
+}
+main .text h1
+{
+	margin: 0;
+	padding-top:17vh;
+	text-align: center;
+	font-size: 6vh;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Lato';
+
+
 }
 main .buttons
 {
