@@ -120,6 +120,44 @@ main .buttons
 	height: 40vh;
 	width: 100vw;
 	background-color: #c2b2c2;
+	text-align: center;
+	padding-top: 3vh;
+
+
+
+}
+main button
+{
+	background: linear-gradient(to right, #c94b4b, #4b134f);
+	color: #C5CDEC;
+	font-family: 'Helvetica';
+	width: 30vh;
+	height: 10vh;
+	font-size: 3vh;
+	border-radius: 50px;
+	margin-top: 5vh;
+
+
+
+
+
+}
+main button:first-child
+{
+	background: linear-gradient(to left, #c94b4b, #4b134f);
+
+
+}
+main button:hover
+{
+	background: linear-gradient(to left, #c94b4b, #4b134f);
+	cursor: pointer;
+}
+main button:first-child:hover
+{
+	background: linear-gradient(to right, #c94b4b, #4b134f);
+	cursor: pointer;
+
 }
 footer
 {
