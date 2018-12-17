@@ -24,8 +24,8 @@ header .logo
 }
 header img
 {
-	height: 8vh;
-	width: 15vw;
+	height: 50px;
+	width: 100px;
 	display: block;
 	margin: 1vh 0 0 5vh;
 }
@@ -209,9 +209,54 @@ main input
 	width: 35vw;
 	height: 5vh;
 	display: block;
-	margin: 25px auto; 
+	margin: 20px auto; 
 }
 main .close
+{
+	position: absolute;
+	top: 0;
+	right: 14px;
+	font-size: 5vh;
+	transform: rotate(45deg);
+	top: 0;
+	cursor: pointer;
+
+}
+main .bg-model2
+{
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	display: none;
+
+	
+}
+main .modal-content2
+{
+	width: 45vw;
+	height: 55vh;
+	background-color: #fff;
+	margin-top: 15vh;
+	text-align: center;
+	padding: 40px;
+	border-radius: 4px;
+	position: relative;
+
+}
+main .modal-content2 img
+{
+	height: 13vh;
+	width: 13vh;
+}
+
+
+
+main .close2
 {
 	position: absolute;
 	top: 0;
