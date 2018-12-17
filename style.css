@@ -121,7 +121,7 @@ main .buttons
 	height: 40vh;
 	width: 100vw;
 	text-align: center;
-	padding-top: 3vh;
+
 
 
 
@@ -131,8 +131,8 @@ main #right
 	background: linear-gradient(to right, #c94b4b, #4b134f);
 	color: #C5CDEC;
 	font-family: 'Helvetica';
-	width: 30vh;
-	height: 10vh;
+	width: 25vh;
+	height: 8vh;
 	font-size: 3vh;
 	border-radius: 50px;
 	margin-top: 5vh;
@@ -142,11 +142,11 @@ main #left
 	background: linear-gradient(to left, #c94b4b, #4b134f);
 	color: #C5CDEC;
 	font-family: 'Helvetica';
-	width: 30vh;
-	height: 10vh;
+	width: 25vh;
+	height: 8vh;
 	font-size: 3vh;
 	border-radius: 50px;
-	margin-top: 5vh;
+	margin-top: 10vh;
 
 
 }
@@ -180,9 +180,9 @@ main .modal-content
 	width: 45vw;
 	height: 55vh;
 	background-color: #fff;
-	margin-top: 20vh;
+	margin-top: 15vh;
 	text-align: center;
-	padding: 20px;
+	padding: 4vh;
 	border-radius: 4px;
 	position: relative;
 
@@ -191,13 +191,14 @@ main .modal-content img
 {
 	height: 13vh;
 	width: 13vh;
+	padding-top: 8vh;
 }
 main #submit
 {
 	background-color: grey;
 	color: #C5CDEC;
 	font-family: 'Helvetica';
-	width: 25vh;
+	width: 22vh;
 	height: 7vh;
 	font-size: 3vh;
 	border-radius: 50px;
@@ -206,10 +207,10 @@ main #submit
 }
 main input
 {
-	width: 35vw;
+	width: 45vw;
 	height: 5vh;
 	display: block;
-	margin: 20px auto; 
+	margin: 3vh auto; 
 }
 main .close
 {
@@ -243,7 +244,7 @@ main .modal-content2
 	background-color: #fff;
 	margin-top: 15vh;
 	text-align: center;
-	padding: 40px;
+	padding: 4vh;
 	border-radius: 4px;
 	position: relative;
 
@@ -252,6 +253,7 @@ main .modal-content2 img
 {
 	height: 13vh;
 	width: 13vh;
+	padding-top: 0;
 }
 
 
@@ -271,4 +273,19 @@ footer
 {
 	height: 10vh;
 	width: 100vw;
+}
+
+
+
+
+
+@media only screen and (min-width : 450px)
+{
+	header nav label{display: none;}
+	header nav .menu{display: block; ;top: 0vh;height: 10vh; }
+	header nav .menu a{background: none;border-top: none; padding-right: 5vh;float: right;}
+	main input{width: 25vw;}
+	main .modal-content{width: 35vw;}
+	main .modal-content2{width: 35vw;}
+	
 }
